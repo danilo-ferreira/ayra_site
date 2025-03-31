@@ -1,526 +1,733 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
-
 <head>
-	<!-- Start Meta -->
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="description" content="FinGo - Business Consulting HTML Template"/>
-	<meta name="keywords" content="Creative, Digital, multipage, landing, freelancer template"/>
-	<meta name="author" content="Ayra Consultoria de Vendas & Posicionamento">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Title of Site -->
-	<title>LinkedIn Estratégico - Ayra Consultoria de Vendas & Posicionamento</title>
-	<!-- Favicons -->
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="assets/css/fontawesome.css">
-	<!-- Flaticon -->
-	<link rel="stylesheet" href="assets/font/flaticon_flexitype.css">	
-	<!-- Animate CSS -->
-	<link rel="stylesheet" href="assets/css/animate.css">
-	<!-- Swiper -->
-	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-	<!-- Magnific -->
-	<link rel="stylesheet" href="assets/css/magnific-popup.css">
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="assets/css/style.css">  
-</head>
+<!-- Start Meta -->
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="FinGo - Business Consulting HTML Template" name="description"/>
+<meta content="Creative, Digital, multipage, landing, freelancer template" name="keywords"/>
+<meta content="Ayra Consultoria de Vendas &amp; Posicionamento" name="author"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!-- Title of Site -->
+<title>LinkedIn Estratégico - Ayra Consultoria de Vendas &amp; Posicionamento</title>
+<!-- Favicons -->
+<link href="assets/img/favicon.png" rel="icon" type="image/png"/>
+<!-- Bootstrap CSS -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- Font Awesome -->
+<link href="assets/css/fontawesome.css" rel="stylesheet"/>
+<!-- Flaticon -->
+<link href="assets/font/flaticon_flexitype.css" rel="stylesheet"/>
+<!-- Animate CSS -->
+<link href="assets/css/animate.css" rel="stylesheet"/>
+<!-- Swiper -->
+<link href="assets/css/swiper-bundle.min.css" rel="stylesheet"/>
+<!-- Magnific -->
+<link href="assets/css/magnific-popup.css" rel="stylesheet"/>
+<!-- Custom CSS -->
+<link href="assets/css/style.css" rel="stylesheet"/>
+<style>
+.default_button.azul {
+  background-color: #0544e2;
+  color: white;
+}
 
+.default_button.azul i {
+  background-color: white;
+  color: #0544e2;
+}
+
+.default_button.azul:hover {
+  background-color: #1a5858;
+  color: white;
+}
+
+.default_button.azul:hover i {
+  background-color: white;
+  color: #1a5858;
+}
+</style>
+</meta>
+<style>
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top__bar-wrapper {
+  width: 100%;
+  background-color: #fff;
+}
+
+.top__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  max-width: 1140px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.top__bar-left,
+.top__bar-right {
+  display: flex;
+  align-items: center;
+}
+
+.top__bar-right {
+  padding-right: 4px;
+}
+
+.top__bar-right ul {
+  margin: 0;
+  padding: 0;
+}
+
+.top__bar-right ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.top__bar-right ul li a i {
+  margin-left: 6px;
+}
+
+@media (max-width: 767.98px) {
+  .top__bar-left {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .top__bar-right {
+    justify-content: flex-end;
+    flex-shrink: 0;
+    margin-left: 12px;
+    padding-right: 0;
+  }
+
+  .top__bar-left ul,
+  .top__bar-right ul {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+  }
+
+  .top__bar-left ul li a {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  .top__bar-right ul li a i.fab.fa-linkedin-in {
+    font-size: 18px;
+  }
+}
+</style>
+
+<style>
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top__bar-wrapper {
+  width: 100%;
+  background-color: #fff;
+}
+
+.top__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .top__bar {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-right: 12px;
+  }
+}
+
+.top__bar-left,
+.top__bar-right {
+  display: flex;
+  align-items: center;
+}
+
+.top__bar-right {
+  padding-right: 4px;
+}
+
+.top__bar-right ul {
+  margin: 0;
+  padding: 0;
+}
+
+.top__bar-right ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.top__bar-right ul li a i {
+  margin-left: 6px;
+}
+
+@media (max-width: 767.98px) {
+  .top__bar-left {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .top__bar-right {
+    justify-content: flex-end;
+    flex-shrink: 0;
+    margin-left: 12px;
+    padding-right: 0;
+  }
+
+  .top__bar-left ul,
+  .top__bar-right ul {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+  }
+
+  .top__bar-left ul li a {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  .top__bar-right ul li a i.fab.fa-linkedin-in {
+    font-size: 18px;
+  }
+}
+</style>
+
+
+<style>
+html, body {
+  overflow-x: hidden !important;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.top__bar-wrapper {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.top__bar {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+</style>
+
+</head>
 <body>
-	<!-- Preloader start -->
-	<div class="theme-loader">
-		<div class="spinner">
-			<div class="spinner-bounce one"></div>
-			<div class="spinner-bounce two"></div>
-			<div class="spinner-bounce three"></div>
-		</div>
-	</div>
-	<!-- Preloader end -->
-	<div class="cursor">
-		<div class="hide"><div id="cursor-ball"></div></div>
-        <div id="cursor-text"></div>
-    </div>
-	<!-- Dark Light Start -->
-	<div class="switch__tab two">
-			<div class="switch__tab-area-item" style="display:none">
-				<h5>Custom Cursor</h5>
-				<div class="switch__tab-area-item-buttons" id="cursor_style">
-					<button data-cursor="2" class="active">Yes</button>
-					<button data-cursor="2">No</button>
-				</div>
-			</div>
-	</div>
-	<!-- Dark Light End -->
-    
-	<!-- Mobile Menu Start -->
-	<div class="menu__bar-popup two">
-		<div class="menu__bar-popup-top">
-			<div class="logo"><a href="index.html"><img src="assets/img/logo-2.png" alt="logo-image"></a></div>			
-			<div class="close"><i class="fal fa-times"></i></div>
-		</div>
-		<div class="vertical-menu">
-			<div class="vertical_menu">
-				<!-- Here Menu Will Come Automatically Via Javascript / Same Menu as in Header -->
-			</div>
-		</div>
-	</div>
-	<div class="menu__bar-popup-overlay"></div>
-	<!-- Mobile Menu End -->
-	<!-- Header Area Start -->
-	<div class="header__area two">
-		<!-- <div class="bg_shape" style="background-image: url('assets/img/shape/bg.png');"></div> -->
-		<div class="custom_container">
-			<div class="row">
-				<div class="col-xl-12">
-                    <div class="top__bar-two">
-                        <div class="row al-center">
-                            <div class="col-md-6">
-                                <div class="top__bar-left md-t-center">
-                                    <ul>
-                                        <li></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6 d-flex jc-end md-jc-center flex-wrap">
-                                <div class="top__bar-left">
-                                    <ul>
-                                        <li><a href="mailto:mariana@ayra.company"><i class="fas fa-envelope"></i>mariana@ayra.company</a></li>
-                                    </ul>
-                                </div>
-                                <div class="top__bar-right">
-                                    <ul>
-                                        <li><a href="https://www.linkedin.com/company/ayra-consultoria-de-vendas" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="header__area-menubar">
-						<div class="header__area-menubar-left">
-							<div class="header__area-menubar-left-logo">
-								<a href="index.html"><img class="dark-n" src="assets/img/logo-1.png" style="max-height:65px; width:auto;"><img class="light-n" src="assets/img/logo-2.png" alt="logo"></a>
-							</div>
-						</div>
-						<div class="header__area-menubar-center">
-							<div class="header__area-menubar-center-menu">
-								<ul id="mobilemenu">
-									<li><a href="#impacto">Impacto</a>
-									</li>
-									<li ><a href="#servicos">Servicos</a>
-									</li>
-									<li ><a href="#para_voce">Para Você</a>
-									</li>
-									<li ><a href="#para_empresa">Para Sua Empresa</a>
-									</li>
-									<li><a href="#especialista">Especialista Ayra</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="header__area-menubar-right">
-                           
-							<div class="header__area-menubar-right-tel lg-display-n">
-								<div class="header__area-menubar-right-tel-icon">
-									<a href="https://api.whatsapp.com/send?phone=5511996529138&text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20da%20Ayra%20para%20LinkedIn%20Estrat%C3%A9gico"><i class="flaticon-phone-call"></i></a>
-								</div>
-								<div class="header__area-menubar-right-tel-info">
-									<span>Whatsapp</span>
-									<h6><a href="https://api.whatsapp.com/send?phone=5511996529138&text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20da%20Ayra%20para%20LinkedIn%20Estrat%C3%A9gico">(11) 99652-9138</a></h6>
-								</div>
-							</div>
-							<div class="header__area-menubar-right-responsive-menu menu__bar">
-								<i class="flaticon-menu-3"></i>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Header Area End -->
-	<!-- Banner Area Start -->
-    <div class="banner__two overflow-hidden">
-		<div class="bg_shape" style="background-image: url('assets/img/shape/bg.png');"></div>
-        <div class="custom_container">
-            <div class="row al-center">
-                <div class="col-lg-12">
-                    <div class="banner__two-content t-center">
-                        <span class="subtitle ">Ayra Consultoria de Vendas & Posicionamento</span>
-                        <h1 >LinkedIn Estratégico</h1>
-                        <p >We specialize in streamlining operations, optimizing financial strategies, and helping businesses scale effectively.</p>
-                        <div class="banner__two-content-button item_bounce">
-                            <a class="default_button" href="#impacto">Veja o impacto<i class="flaticon-right-up"></i></a>                           
-                        </div>
-                    </div>
-                    <img class="img_full" src="assets/img/banner/banner-7.jpg" alt="image">
-                </div>
-            </div>
-        </div>
-    </div>
-	<!-- Banner Area End -->
-		<!-- About Area Start -->
-    <div class="about__two overflow-hidden section-padding">
-		<div class="bg_shape"></div>
-        <div class="container">
-            <div class="row al-center">
-                <div class="col-lg-6 lg-mb-25">
-                    <div class="about__two-left mr-60 xl-mr-0">
-                        <img  src="assets/img/about/about-3.jpg" alt="image">
-                        <img class="two " src="assets/img/about/about-4.jpg" alt="image">
-                        <div class="about__two-left-client bounce_y">
-							<i class="flaticon-customer-review"></i>
-							<div>
-								<h2><span class="counter">45</span>%+</h2>
-								<span>Você sabia que perfis estratégicos no LinkedIn geram até mais oportunidades de negócio e <b>aumentam em 80% </b>a visibilidade da marca?</span>
-							</div>
-						</div>
-                    </div>
-                </div>
-                <div class="col-lg-6" id="impacto">
-                    <div class="about__two-right">
-                        <div class="about__two-right-title">
-							<span class="subtitle ">Impacto</span>
-							<h2 class=" mb-20">Você sabe o impacto que um perfil pode ter?</h2>
-                            <p >We specialize in guiding businesses toward long-term success with over 10 years of experience, our team of expert tax advisors helps businesses</p>
-                        </div>
-                        <div class="about__two-right-overview ">
-                            <div class="about__two-right-overview-item">
-                                <h4>3x</h4>
-                                <p>Perfis profissionais com posicionamneto chave têm <b>3x mais</p></b> mais chances de atrair clientes e fechar novas vendas?</p>
-                            </div>
-                            <div class="about__two-right-overview-item">
-                                <h4>Alto Impacto</h4>
-                                <p>Na <b>Ayra Consultoria</b>, criamos um serviço completo para ajudar profissionais e empresas a construírem perfis de <b>alto impacto</b> e se posicionarem estrategicamente no mercado.</p>
-                            </div>
-                        </div>
-                        <div class="about__two-right-btn mt-50 item_bounce">
-                            <a class="default_button" href="#servicos">Serviços<i class="flaticon-right-up"></i></a>                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	<!-- About Area End -->
-	<!-- Choose Us Area Start -->
-    <div class="choose__us overflow-hidden section-padding">
-		<div class="bg_shape" style="background-image: url('assets/img/shape/bg.png');"></div>
-        <div class="container">
-            <div class="row al-center">
-                <div class="col-lg-6">
-                    <div class="choose__us-right" id="servicos">
-                        <div class="choose__us-right-title">
-                            <span class="subtitle ">Serviços</span>
-                            <h2 class=" mb-20">O que oferecemos?</h2>
-                            <p >At our core, we are dedicated to helping businesses thrive through expert strategie personalized solutions, and a commitment to excellence</p>
-                        </div>
-                        <div class="about__one-right-list mt-30">
-							<div class="row  ">
-								<div class="col-sm-6">
-									<ul>
-										<li><i class="flaticon-checked"></i>Otimização</li>
+<!-- Preloader start -->
+<div class="theme-loader">
+<div class="spinner">
+<div class="spinner-bounce one"></div>
+<div class="spinner-bounce two"></div>
+<div class="spinner-bounce three"></div>
+</div>
+</div>
+<!-- Preloader end -->
+<div class="cursor">
+<div class="hide"><div id="cursor-ball"></div></div>
+<div id="cursor-text"></div>
+</div>
+<!-- Dark Light Start -->
+<div class="switch__tab two">
+<div class="switch__tab-area-item" style="display:none">
+<h5>Custom Cursor</h5>
+<div class="switch__tab-area-item-buttons" id="cursor_style">
+<button class="active" data-cursor="2">Yes</button>
+<button data-cursor="2">No</button>
+</div>
+</div>
+</div>
+<!-- Dark Light End -->
+<!-- Mobile Menu Start -->
+<div class="menu__bar-popup two">
+<div class="menu__bar-popup-top">
+<div class="logo"><a href="index.html"><img alt="logo-image" src="assets/img/logo-2.png"/></a></div>
+<div class="close"><i class="fal fa-times"></i></div>
+</div>
+<div class="vertical-menu">
+<div class="vertical_menu">
+<!-- Here Menu Will Come Automatically Via Javascript / Same Menu as in Header -->
+</div>
+</div>
+</div>
+<div class="menu__bar-popup-overlay"></div>
+<!-- Mobile Menu End -->
+<!-- Header Area Start -->
+<div class="header__area two">
+<!-- <div class="bg_shape" style="background-image: url('assets/img/shape/bg.png');"></div> -->
+<div class="custom_container">
+<div class="row">
+<div class="col-xl-12">
+<div class="top__bar-two">
+<div class="row al-center">
+<div class="col-md-6">
+<div class="top__bar-left md-t-center">
+<ul>
+<li></li>
+</ul>
+</div>
+</div>
+<div class="col-md-6 d-flex jc-end md-jc-center flex-wrap">
+<div class="top__bar-left">
+<ul>
+<li><a href="mailto:mariana@ayra.company"><i class="fas fa-envelope"></i>mariana@ayra.company</a></li>
+</ul>
+</div>
+<div class="top__bar-right">
+<ul>
+<li><a href="https://www.linkedin.com/company/ayra-consultoria-de-vendas" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="header__area-menubar">
+<div class="header__area-menubar-left">
+<div class="header__area-menubar-left-logo">
+<a href="index.html"><img class="dark-n" src="assets/img/logo-1.png" style="max-height:65px; width:auto;"/><img alt="logo" class="light-n" src="assets/img/logo-2.png"/></a>
+</div>
+</div>
+<div class="header__area-menubar-center">
+<div class="header__area-menubar-center-menu">
+<ul id="mobilemenu">
+<li><a href="#impacto">Impacto</a>
+</li>
+<li><a href="#servicos">Servicos</a>
+</li>
+<li><a href="#para_voce">Para Você</a>
+</li>
+<li><a href="#para_empresa">Para Sua Empresa</a>
+</li>
+<li><a href="#especialista">Especialista Ayra</a></li>
+</ul>
+</div>
+</div>
+<div class="header__area-menubar-right">
+<div class="header__area-menubar-right-tel lg-display-n">
+<div class="header__area-menubar-right-tel-icon">
+<a href="https://api.whatsapp.com/send?phone=5511996529138&amp;text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20da%20Ayra%20para%20LinkedIn%20Estrat%C3%A9gico"><i class="flaticon-phone-call"></i></a>
+</div>
+<div class="header__area-menubar-right-tel-info">
+<span>Whatsapp</span>
+<h6><a href="https://api.whatsapp.com/send?phone=5511996529138&amp;text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20da%20Ayra%20para%20LinkedIn%20Estrat%C3%A9gico">(11) 99652-9138</a></h6>
+</div>
+</div>
+<div class="header__area-menubar-right-responsive-menu menu__bar">
+<i class="flaticon-menu-3"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Header Area End -->
+<!-- Banner Area Start -->
+<div class="banner__two overflow-hidden">
+<div class="bg_shape" style="background-image: url('assets/img/shape/bg.png');"></div>
+<div class="custom_container">
+<div class="row al-center">
+<div class="col-lg-12">
+<div class="banner__two-content t-center">
+<span class="subtitle">Ayra Consultoria de Vendas &amp; Posicionamento</span>
+<h1>LinkedIn Estratégico</h1>
+<p>We specialize in streamlining operations, optimizing financial strategies, and helping businesses scale effectively.</p>
+<div class="banner__two-content-button item_bounce">
+<a class="default_button" href="#impacto">Veja o impacto<i class="flaticon-right-up"></i></a>
+</div>
+</div>
+<img alt="image" class="img_full" src="assets/img/banner/banner-7.jpg"/>
+</div>
+</div>
+</div>
+</div>
+<!-- Banner Area End -->
+<!-- About Area Start -->
+<div class="about__two overflow-hidden section-padding">
+<div class="bg_shape"></div>
+<div class="container">
+<div class="row al-center">
+<div class="col-lg-6 lg-mb-25">
+<div class="about__two-left mr-60 xl-mr-0">
+<img alt="image" src="assets/img/about/about-3.jpg"/>
+<img alt="image" class="two" src="assets/img/about/about-4.jpg"/>
+<div class="about__two-left-client bounce_y">
+<i class="flaticon-customer-review"></i>
+<div>
+<h2><span class="counter">45</span>%+</h2>
+<span>Você sabia que perfis estratégicos no LinkedIn geram até mais oportunidades de negócio e <b>aumentam em 80% </b>a visibilidade da marca?</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6" id="impacto">
+<div class="about__two-right">
+<div class="about__two-right-title">
+<span class="subtitle">Impacto</span>
+<h2 class="mb-20">Você sabe o impacto que um perfil pode ter?</h2>
+<p>We specialize in guiding businesses toward long-term success with over 10 years of experience, our team of expert tax advisors helps businesses</p>
+</div>
+<div class="about__two-right-overview">
+<div class="about__two-right-overview-item">
+<h4>3x</h4>
+<p>Perfis profissionais com posicionamneto chave têm <b>3x mais</b></p> mais chances de atrair clientes e fechar novas vendas?
+</div>
+<div class="about__two-right-overview-item">
+<h4>Alto Impacto</h4>
+<p>Na <b>Ayra Consultoria</b>, criamos um serviço completo para ajudar profissionais e empresas a construírem perfis de <b>alto impacto</b> e se posicionarem estrategicamente no mercado.</p>
+</div>
+</div>
+<div class="about__two-right-btn mt-50 item_bounce">
+<a class="default_button" href="#servicos">Serviços<i class="flaticon-right-up"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- About Area End -->
+<!-- Choose Us Area Start -->
+<div class="choose__us overflow-hidden section-padding">
+<div class="bg_shape" style="background-image: url('assets/img/shape/bg.png');"></div>
+<div class="container">
+<div class="row al-center">
+<div class="col-lg-6">
+<div class="choose__us-right" id="servicos">
+<div class="choose__us-right-title">
+<span class="subtitle">Serviços</span>
+<h2 class="mb-20">O que oferecemos?</h2>
+<p>At our core, we are dedicated to helping businesses thrive through expert strategie personalized solutions, and a commitment to excellence</p>
+</div>
+<div class="about__one-right-list mt-30">
+<div class="row">
+<div class="col-sm-6">
+<ul>
+<li><i class="flaticon-checked"></i>Otimização</li>
 										Otimização completa do perfil do LinkedIn profissionais e empresas
 										<li></li>
-										<li></li>
-										<li><i class="flaticon-checked"></i>Ghostwriter</li>
+<li></li>
+<li><i class="flaticon-checked"></i>Ghostwriter</li>
 										Serviço de Ghostwriter/ conexões estratégicas e interações
 										<li></li>
-									</ul>
-								</div>
-								<div class="col-sm-6 sm-mt-10">
-									<ul>
-										<li><i class="flaticon-checked"></i>Posicionamento</li>
+</ul>
+</div>
+<div class="col-sm-6 sm-mt-10">
+<ul>
+<li><i class="flaticon-checked"></i>Posicionamento</li>
 										Consultoria de posicionamento profissional e aprimoramento da marca pessoal
 										<li></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-                        <div class="mt-45 item_bounce">
-                            <a class="default_button" href="#para_voce">Para você<i class="flaticon-right-up"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="choose__us-left ml-40 lg-ml-0 lg-mt-25">
-                        <img class=" img_full" src="assets/img/pages/image-6.jpg" alt="image">
-                        <div class="choose__us-left-success ">
-                            <h3><span class="counter">100</span>%</h3>
-                            <span>Success Rate Across All Industries</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	<!-- Choose Us Area End -->
-
-	<!-- Services Area Start -->
-    <div class="services__two section-padding" style="background: white;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 columns_sticky" id="para_voce">
-                    <div class="services__two-title overflow-hidden">
-                        <span class="subtitle ">Para você</span>
-                        <h2 class=" mb-20">Perfil Profissional</h2>
-                        <p class=" mb-45">Seu perfil pronto para destaque e conexões com o seu público-alvo</p>
-                        <div class="item_bounce">
-                            <a class="default_button" href="#para_empresa">Para sua empresa<i class="flaticon-right-up"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="services__two-right ml-100 lg-ml-0">
-                        <div class="services__two-right-item">
-                            <div class="services__two-right-item-icon">
-                                <i class="flaticon-idea-1"></i>
-                            </div>
-                            <div class="services__two-right-item-content">
-                                <h4><a href="services-details.html">Sessão 1:1 de Posicionamento</a></h4>
-                                <p>Uma consultoria exclusiva para definir seu tom de voz, diferenciais e como se destacar no LinkedIn.</p>
-                              
-                            </div>
-                        </div>
-                        <div class="services__two-right-item">
-                            <div class="services__two-right-item-icon">
-                                <i class="flaticon-strategy"></i>
-                            </div>
-                            <div class="services__two-right-item-content">
-                                <h4><a href="services-details.html">Otimização completa do perfil</a></h4>
-                                <p>Revisamos e aprimoramos cada campo do seu perfil, desde a biografia até o histórico profissional, garantindo que ele comunique autoridade e relevância.</p>
-                              
-                            </div>
-                        </div>
-                        <div class="services__two-right-item">
-                            <div class="services__two-right-item-icon">
-                                <i class="flaticon-sales"></i>
-                            </div>
-                            <div class="services__two-right-item-content">
-                                <h4><a href="services-details.html">Ghostwriting Profissional</a></h4>
-                                <p>Toda semana, elaboramos conteúdo estratégico para o seu LinkedIn, garantindo consistência e engajamento com seu público. Até 2 posts por semana no formato a ser acordado (artigo/ post/ carrossel/ vídeos e etc).</p>
-                               
-                            </div>
-                        </div>
-                        <div class="services__two-right-item">
-                            <div class="services__two-right-item-icon">
-                                <i class="flaticon-project-management"></i>
-                            </div>
-                            <div class="services__two-right-item-content">
-                                <h4><a href="services-details.html">Interação, Posicionamento & Conexões</a></h4>
-                                <p>Fazemos interações com empresas e profissionais estratégicos (comentários, likes, compartilhamentos) para fortalecer sua presença na rede, expandir a rede de relacionamento e aumentar a sua relevância - consequentemente novos seguidores.
+</ul>
+</div>
+</div>
+</div>
+<div class="mt-45 item_bounce">
+<a class="default_button" href="#para_voce">Para você<i class="flaticon-right-up"></i></a>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="choose__us-left ml-40 lg-ml-0 lg-mt-25">
+<img alt="image" class="img_full" src="assets/img/pages/image-6.jpg"/>
+<div class="choose__us-left-success">
+<h3><span class="counter">100</span>%</h3>
+<span>Success Rate Across All Industries</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Choose Us Area End -->
+<!-- Services Area Start -->
+<div class="services__two section-padding" style="background: white;">
+<div class="container">
+<div class="row">
+<div class="col-lg-5 columns_sticky" id="para_voce">
+<div class="services__two-title overflow-hidden">
+<span class="subtitle">Para você</span>
+<h2 class="mb-20">Perfil Profissional</h2>
+<p class="mb-45">Seu perfil pronto para destaque e conexões com o seu público-alvo</p>
+<div class="item_bounce">
+<a class="default_button azul" href="#para_empresa">Para sua empresa<i class="flaticon-right-up"></i></a>
+</div>
+</div>
+</div>
+<div class="col-lg-7">
+<div class="services__two-right ml-100 lg-ml-0">
+<div class="services__two-right-item">
+<div class="services__two-right-item-icon">
+<i class="flaticon-idea-1"></i>
+</div>
+<div class="services__two-right-item-content">
+<h4><a href="services-details.html">Sessão 1:1 de Posicionamento</a></h4>
+<p>Uma consultoria exclusiva para definir seu tom de voz, diferenciais e como se destacar no LinkedIn.</p>
+</div>
+</div>
+<div class="services__two-right-item">
+<div class="services__two-right-item-icon">
+<i class="flaticon-strategy"></i>
+</div>
+<div class="services__two-right-item-content">
+<h4><a href="services-details.html">Otimização completa do perfil</a></h4>
+<p>Revisamos e aprimoramos cada campo do seu perfil, desde a biografia até o histórico profissional, garantindo que ele comunique autoridade e relevância.</p>
+</div>
+</div>
+<div class="services__two-right-item">
+<div class="services__two-right-item-icon">
+<i class="flaticon-sales"></i>
+</div>
+<div class="services__two-right-item-content">
+<h4><a href="services-details.html">Ghostwriting Profissional</a></h4>
+<p>Toda semana, elaboramos conteúdo estratégico para o seu LinkedIn, garantindo consistência e engajamento com seu público. Até 2 posts por semana no formato a ser acordado (artigo/ post/ carrossel/ vídeos e etc).</p>
+</div>
+</div>
+<div class="services__two-right-item">
+<div class="services__two-right-item-icon">
+<i class="flaticon-project-management"></i>
+</div>
+<div class="services__two-right-item-content">
+<h4><a href="services-details.html">Interação, Posicionamento &amp; Conexões</a></h4>
+<p>Fazemos interações com empresas e profissionais estratégicos (comentários, likes, compartilhamentos) para fortalecer sua presença na rede, expandir a rede de relacionamento e aumentar a sua relevância - consequentemente novos seguidores.
 </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	<!-- Services Area End -->
-	<!-- Price Area Start -->
-    <div class="pricing__plan overflow-hidden section-padding">
-        <div class="container">
-            <div class="row jc-center mb-35" id="para_empresa">
-                <div class="col-lg-5 col-md-12">
-                    <div class="pricing__plan-title t-center">
-                        <span class="subtitle ">Para sua empresa</span>
-                        <h2>Company Page</h2>                           
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mt-25 ">
-                    <div class="pricing__plan-item">
-                        <h5>Gestão de conteúdo & linha editorial</h5>
-                        <p>Definição de pautas estratégicas e estruturação de um calendário editorial para fortalecer a presença da sua empresa na rede.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-25 ">
-                    <div class="pricing__plan-item active">
-                        <h5>Análise de Concorrência</h5>
-                        <p>Mapeamento das melhores práticas do mercado e dos principais concorrentes para posicionar sua página de forma diferenciada.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-25">
-                    <div class="pricing__plan-item">
-                        <h5>Impulsionamento Orgânico & Crescimento da Página</h5>
-                        <p>Técnicas para atrair seguidores qualificados, aumentar a visibilidade e consolidar a autoridade da marca sem investimento em anúncios.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-25">
-                    <div class="pricing__plan-item active">
-                        <h5>Campanhas de Recrutamento & Employer Branding</h5>
-                        <p>Criação de estratégias para atrair talentos, fortalecer a cultura organizacional e tornar a empresa referência para profissionais do setor</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	<!-- Price Area End -->
-	<!-- Faq Area Start -->
-    <div class="faq__one overflow-hidden section-padding">
-		<div class="bg_shape" style="background-image: url('assets/img/shape/bg.png');"></div>
-        <div class="container">
-            <div class="row al-center">
-                <div class="col-lg-6">
-                    <div class="faq__one-left mr-60 xl-mr-0 lg-mb-25">
-                        <div class="row al-center">
-                       
-                            <div class="col-6" style="width: 100%;" >
-                                <img class="three " src="assets/img/portfolio/portfolio-3.jpg" alt="image">      
-                            </div>
-                        </div>
-                        <div class="faq__one-left-years bounce_y">
-                            <h3><span class="counter">20</span>+ Anos</h3>
-                            <span>Há <b>mais de 20 anos</b>, ela ajuda as empresas e profissionais a se posicionarem estrategicamente para gerar conexões e oportunidades reais.
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Services Area End -->
+<!-- Price Area Start -->
+<div class="pricing__plan overflow-hidden section-padding">
+<div class="container">
+<div class="row jc-center mb-35" id="para_empresa">
+<div class="col-lg-5 col-md-12">
+<div class="pricing__plan-title t-center">
+<span class="subtitle">Para sua empresa</span>
+<h2>Company Page</h2>
+</div>
+</div>
+</div>
+<div class="row justify-content-center">
+<div class="col-lg-4 col-md-6 mt-25">
+<div class="pricing__plan-item">
+<h5>Gestão de conteúdo &amp; linha editorial</h5>
+<p>Definição de pautas estratégicas e estruturação de um calendário editorial para fortalecer a presença da sua empresa na rede.</p>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 mt-25">
+<div class="pricing__plan-item active">
+<h5>Análise de Concorrência</h5>
+<p>Mapeamento das melhores práticas do mercado e dos principais concorrentes para posicionar sua página de forma diferenciada.</p>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 mt-25">
+<div class="pricing__plan-item">
+<h5>Impulsionamento Orgânico &amp; Crescimento da Página</h5>
+<p>Técnicas para atrair seguidores qualificados, aumentar a visibilidade e consolidar a autoridade da marca sem investimento em anúncios.</p>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 mt-25">
+<div class="pricing__plan-item active">
+<h5>Campanhas de Recrutamento &amp; Employer Branding</h5>
+<p>Criação de estratégias para atrair talentos, fortalecer a cultura organizacional e tornar a empresa referência para profissionais do setor</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Price Area End -->
+<!-- Faq Area Start -->
+<div class="faq__one overflow-hidden section-padding">
+<div class="bg_shape" style="background-image: url('assets/img/shape/bg.png');"></div>
+<div class="container">
+<div class="row al-center">
+<div class="col-lg-6">
+<div class="faq__one-left mr-60 xl-mr-0 lg-mb-25">
+<div class="row al-center">
+<div class="col-6" style="width: 100%;">
+<img alt="image" class="three" src="assets/img/portfolio/portfolio-3.jpg"/>
+</div>
+</div>
+<div class="faq__one-left-years bounce_y">
+<h3><span class="counter">20</span>+ Anos</h3>
+<span>Há <b>mais de 20 anos</b>, ela ajuda as empresas e profissionais a se posicionarem estrategicamente para gerar conexões e oportunidades reais.
 </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="faq__one-right">
-                        <div class="faq__one-right-title mb-30" id="especialista">
-                            <span class="subtitle ">Especialista Ayra</span>
-                            <h2><a href="https://www.linkedin.com/in/marimello/">Mariana Mello</a></h2>                              
-                        </div>
-                        <div  id="accordionExample">
-                            <div class="faq-item">
-                                <h6 class="icon" data-bs-toggle="collapse" data-bs-target="#collapseOne">Top Voice</h6>
-                                <div id="collapseOne" class="faq-item-body collapse show" data-bs-parent="#accordionExample">
-                                    <p>Mariana Mello Campos é LinkedIn Top Voice e uma das criadoras de conteúdo recomendadas pela própria plataforma.</p>
-                                </div>
-                            </div>
-                            <div class="faq-item">
-                                <h6 class="icon" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Top 100 Mulheres</h6>
-                                <div id="collapseTwo" class="faq-item-body collapse show" data-bs-parent="#accordionExample">
-                                    <p>Foi considerada uma das Top 100 Mulheres de Impacto pela Comunicare Hub (Março/ 2025)</p>
-                                </div>
-                            </div>
-                            <div class="faq-item">
-                                <h6 class="icon" data-bs-toggle="collapse" data-bs-target="#collapseThree">Referência</h6>
-                                <div id="collapseThree" class="faq-item-body collapse show" data-bs-parent="#accordionExample">
-                                    <p>Com uma abordagem estratégica e insights relevantes, ela se tornou referência para quem busca inovação, tendências de mercado e transformação digital no LinkedIn.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	<!-- Faq Area End -->
-	
-	<!-- Footer Area Start -->
-    <div class="footer__two">
-		<div class="bg_shape" style="background-image: url('assets/img/shape/footer.png');"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="footer__cta-area" style="background-image: url('assets/img/shape/shape-2.png');">
-                        <div class="row al-center">
-                            <div class="col-lg-6 lg-mb-25">
-                                <div class="footer__cta-area-left lg-t-center">
-                                    <h2>Stay Connected with Business Growth</h2>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-7">
-                    <div class="footer__one-widget mr-80 xl-mr-0">
-                        <a class="logo" href="index.html"><img src="assets/img/logo-2.png" alt="logo"></a>
-                        <p>LinkedIn Estratégico é um serviço oferecido pela Ayra Consultoria de Vendas & Posicionamento</p>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-5 sm-mt-30">
-
-                </div>
-                <div class="col-lg-4 col-sm-7 lg-mt-30">
-                    <div class="footer__one-widget contact ml-20 xl-ml-0">
-                        <h5>Contato</h5>
-                        <div class="contact-item mb-25">
-                            <div class="contact-item-icon"><a href="https://api.whatsapp.com/send?phone=5511996529138&text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20da%20Ayra%20para%20LinkedIn%20Estrat%C3%A9gico" target="_blank">
-                                <i class="flaticon-phone-call"></i></a>
-                            </div>
-                            <div class="contact-item-info">
-                                <span><a href="https://api.whatsapp.com/send?phone=5511996529138&text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20da%20Ayra%20para%20LinkedIn%20Estrat%C3%A9gico" target="_blank">Whatsapp/Telefone</a></span>
-                                <h6><a href="https://api.whatsapp.com/send?phone=5511996529138&text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20da%20Ayra%20para%20LinkedIn%20Estrat%C3%A9gico" target="_blank">11 99652-9138</a></h6>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-item-icon"><a href="mailto:mariana@ayra.company">
-                                <i class="flaticon-email"></i></a>
-                            </div>
-                            <div class="contact-item-info">
-                                <span><a href="mailto:mariana@ayra.company">Email</a></span>
-                                <h6><a href="mailto:mariana@ayra.company">mariana@ayra.company</a></h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-5 lg-mt-30">
-                    <div class="footer__one-widget">
-                        <h5>Siga a Ayra</h5>
-                        <div class="footer-widget-menu">
-                            <ul>
-                                <li><a href="https://www.linkedin.com/company/ayra-consultoria-de-vendas" target="_blank">Linkedin Ayra</a></li>
-                                <li><a href="https://www.linkedin.com/in/marimello/" target="_blank">Linkedin Mariana Mello</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="copyright__area">
-                        <div class="row al-center">
-                            <div class="col-md-7">
-                                <div class="copyright__area-content md-t-center md-mb-10">
-                                    <p>Ayra - Copyright 2025</p>
-                                </div>
-                            </div>
-                            <div class="col-md-5">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-	</div>
-	<!-- Footer Area End -->
-	<!-- Scroll Btn Start -->
-	<div class="scroll-up">
-		<svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" /> </svg>
-	</div>
-	<!-- Scroll Btn End -->
-	<!-- Main JS -->
-	<script src="assets/js/jquery-3.7.1.min.js"></script>
-	<!-- Bootstrap JS -->
-	<script src="assets/js/bootstrap.min.js"></script>
-	<!-- Counter up -->
-	<script src="assets/js/jquery.counterup.min.js"></script>
-	<!-- Popper JS -->
-	<script src="assets/js/popper.min.js"></script>
-	<!-- Progressbar JS -->
-	<script src="assets/js/progressbar.min.js"></script>
-	<!-- Magnific JS -->
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<!-- Swiper JS -->
-	<script src="assets/js/swiper-bundle.min.js"></script>
-	<!-- Waypoints JS -->
-	<script src="assets/js/jquery.waypoints.min.js"></script>
-	<!-- Isotope JS -->
-	<script src="assets/js/isotope.pkgd.min.js"></script>
-	<!-- Custom JS -->
-	<script src="assets/js/custom.js"></script>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="faq__one-right">
+<div class="faq__one-right-title mb-30" id="especialista">
+<span class="subtitle">Especialista Ayra</span>
+<h2><a href="https://www.linkedin.com/in/marimello/">Mariana Mello</a></h2>
+</div>
+<div id="accordionExample">
+<div class="faq-item">
+<h6>Top Voice</h6>
+<div class="faq-item-body collapse show" id="collapseOne">
+<p>Mariana Mello Campos é LinkedIn Top Voice e uma das criadoras de conteúdo recomendadas pela própria plataforma.</p>
+</div>
+</div>
+<div class="faq-item">
+<h6>Top 100 Mulheres</h6>
+<div class="faq-item-body collapse show" id="collapseTwo">
+<p>Foi considerada uma das Top 100 Mulheres de Impacto pela Comunicare Hub (Março/ 2025)</p>
+</div>
+</div>
+<div class="faq-item">
+<h6>Referência</h6>
+<div class="faq-item-body collapse show" id="collapseThree">
+<p>Com uma abordagem estratégica e insights relevantes, ela se tornou referência para quem busca inovação, tendências de mercado e transformação digital no LinkedIn.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Faq Area End -->
+<!-- Footer Area Start -->
+<div class="footer__two">
+<div class="bg_shape" style="background-image: url('assets/img/shape/footer.png');"></div>
+<div class="container">
+<div class="row">
+<div class="col-xl-12">
+<div class="footer__cta-area" style="background-image: url('assets/img/shape/shape-2.png');">
+<div class="row al-center">
+<div class="col-lg-6 lg-mb-25">
+<div class="footer__cta-area-left lg-t-center">
+<h2>Stay Connected with Business Growth</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-sm-7">
+<div class="footer__one-widget mr-80 xl-mr-0">
+<a class="logo" href="index.html"><img alt="logo" src="assets/img/logo-2.png"/></a>
+<p>LinkedIn Estratégico é um serviço oferecido pela Ayra Consultoria de Vendas &amp; Posicionamento</p>
+</div>
+</div>
+<div class="col-lg-2 col-sm-5 sm-mt-30">
+</div>
+<div class="col-lg-4 col-sm-7 lg-mt-30">
+<div class="footer__one-widget contact ml-20 xl-ml-0">
+<h5>Contato</h5>
+<div class="contact-item mb-25">
+<div class="contact-item-icon"><a href="https://api.whatsapp.com/send?phone=5511996529138&amp;text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20da%20Ayra%20para%20LinkedIn%20Estrat%C3%A9gico" target="_blank">
+<i class="flaticon-phone-call"></i></a>
+</div>
+<div class="contact-item-info">
+<span><a href="https://api.whatsapp.com/send?phone=5511996529138&amp;text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20da%20Ayra%20para%20LinkedIn%20Estrat%C3%A9gico" target="_blank">Whatsapp/Telefone</a></span>
+<h6><a href="https://api.whatsapp.com/send?phone=5511996529138&amp;text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20da%20Ayra%20para%20LinkedIn%20Estrat%C3%A9gico" target="_blank">11 99652-9138</a></h6>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-item-icon"><a href="mailto:mariana@ayra.company">
+<i class="flaticon-email"></i></a>
+</div>
+<div class="contact-item-info">
+<span><a href="mailto:mariana@ayra.company">Email</a></span>
+<h6><a href="mailto:mariana@ayra.company">mariana@ayra.company</a></h6>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-sm-5 lg-mt-30">
+<div class="footer__one-widget">
+<h5>Siga a Ayra</h5>
+<div class="footer-widget-menu">
+<ul>
+<li><a href="https://www.linkedin.com/company/ayra-consultoria-de-vendas" target="_blank">Linkedin Ayra</a></li>
+<li><a href="https://www.linkedin.com/in/marimello/" target="_blank">Linkedin Mariana Mello</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xl-12">
+<div class="copyright__area">
+<div class="row al-center">
+<div class="col-md-7">
+<div class="copyright__area-content md-t-center md-mb-10">
+<p>Ayra - Copyright 2025</p>
+</div>
+</div>
+<div class="col-md-5">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Area End -->
+<!-- Scroll Btn Start -->
+<div class="scroll-up">
+<svg class="scroll-circle svg-content" height="100%" viewbox="-1 -1 102 102" width="100%"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path> </svg>
+</div>
+<!-- Scroll Btn End -->
+<!-- Main JS -->
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Counter up -->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!-- Popper JS -->
+<script src="assets/js/popper.min.js"></script>
+<!-- Progressbar JS -->
+<script src="assets/js/progressbar.min.js"></script>
+<!-- Magnific JS -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!-- Swiper JS -->
+<script src="assets/js/swiper-bundle.min.js"></script>
+<!-- Waypoints JS -->
+<script src="assets/js/jquery.waypoints.min.js"></script>
+<!-- Isotope JS -->
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<!-- Custom JS -->
+<script src="assets/js/custom.js"></script>
 </body>
-
 </html>
