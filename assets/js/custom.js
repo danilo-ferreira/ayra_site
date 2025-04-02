@@ -459,3 +459,62 @@
         scrollToTop();
     });
 })(jQuery);
+
+
+// Fecha o menu ao dar scroll
+window.addEventListener("scroll", function () {
+    const menu = document.querySelector(".offcanvas-menu");
+    const menuToggle = document.querySelector(".menu-toggle");
+    if (menu && menu.classList.contains("show-offcanvas")) {
+        menu.classList.remove("show-offcanvas");
+        if (menuToggle) menuToggle.classList.remove("active");
+    }
+});
+
+// Fecha o menu ao clicar fora
+document.addEventListener("click", function (e) {
+    const menu = document.querySelector(".offcanvas-menu");
+    const menuToggle = document.querySelector(".menu-toggle");
+    const clickFora = document.querySelector(".click_fora");
+
+    if (
+        menu &&
+        menu.classList.contains("show-offcanvas") &&
+        clickFora &&
+        clickFora.contains(e.target)
+    ) {
+        menu.classList.remove("show-offcanvas");
+        if (menuToggle) menuToggle.classList.remove("active");
+    }
+});
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("DOM totalmente carregado.");
+
+    function fecharMenu() {
+        const menu = document.getElementById("menuMobile");
+        const overlay = document.querySelector(".menu__bar-popup-overlay");
+        const icon = document.querySelector(".menu__bar i");
+
+        if (menu && menu.classList.contains("show")) {
+            console.log("Scroll/touch detectado — fechando menu.");
+            menu.classList.remove("show");
+            if (overlay) overlay.classList.remove("show");
+            if (icon) icon.classList.remove("clicked");
+        }
+    }
+
+    window.addEventListener("scroll", fecharMenu);
+    window.addEventListener("touchmove", fecharMenu);
+    document.addEventListener("scroll", fecharMenu, true);
+
+    const clickFora = document.getElementById("click_fora");
+    if (clickFora) {
+        clickFora.addEventListener("click", function () {
+            console.log("Clique fora detectado — fechando menu.");
+            fecharMenu();
+        });
+    }
+});
