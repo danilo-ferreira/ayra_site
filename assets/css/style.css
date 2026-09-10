@@ -82,10 +82,10 @@ END TABLE OF CONTENTS
 /*==========================================================================
 * Color & Google Fonts
 ==========================================================================*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Wix+Madefor+Display:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
 :root {
-  --body-font: "Inter", sans-serif;
-  --heading-font: "Wix Madefor Display", sans-serif;
+  --body-font: "Manrope", sans-serif;
+  --heading-font: "Manrope", sans-serif;
   --primary-color-1: #0544e2ff;
   --primary-color-2: #0544e2ff;
   --primary-color-3: #0544e2ff;
